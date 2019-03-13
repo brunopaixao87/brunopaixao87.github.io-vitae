@@ -24,6 +24,7 @@
 </head>
 <body>
 <div class="container">
+    {% include header.html %}
     <header class="three columns">
         <!--<img src="{{ site.baseurl }}static/img/profile.png" class="me">-->
         <h1>{{ site.name }}</h1>
@@ -32,14 +33,11 @@
         </p>
         <address>
             <a href="{{ site.google_maps }}">
-                <i class="fa fa-address-card"></i>
+                <i class="fa fa-address-book"></i>
                 {{ site.address.city }}<br/>
                 {{ site.address.country }}
             </a>
         </address>
-        <p>
-            <a href="{{ site.website_full }}">{{ site.website }}</a>
-        </p>
         <p>
             <a href="{{ site.email_full }}"><i class="fa fa-envelope"></i> Mail</a> /<br/>
             <a href="https://github.com/{{ site.github }}"><i class="fa fa-github"></i> Github</a> /
