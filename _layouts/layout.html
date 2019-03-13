@@ -25,13 +25,14 @@
 <body>
 <div class="container">
     <header class="three columns">
-        <img src="{{ site.baseurl }}static/img/profile.png" class="me">
+        <!--<img src="{{ site.baseurl }}static/img/profile.png" class="me">-->
         <h1>{{ site.name }}</h1>
         <p>
-            <a href="{{ site.tel_full }}">{{ site.tel }}</a>
+            <a href="{{ site.tel_full }}"><i class="fa fa-phone"></i>{{ site.tel }}</a>
         </p>
         <address>
             <a href="{{ site.google_maps }}">
+                <i class="fa fa-address-card"></i>
                 {{ site.address.city }}<br/>
                 {{ site.address.country }}
             </a>
