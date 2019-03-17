@@ -24,12 +24,12 @@ github: brunopaixao87
 twitter: brunopaixaodev
 tel: +55 79 999956513
 tel_full: tel:+5579999946413
-google_maps: ''
+google_maps: 'https://www.google.com.br/maps/place/Aracaju,+SE/@-11.0058313,-37.1731963,12z/data=!3m1!4b1!4m5!3m4!1s0x71ab04015be27cd:0x804434fd92ec3b36!8m2!3d-10.9472468!4d-37.0730823'
 address:
   street: 44 Perth Street
   postcode: 
   city: Aracaju - SE
-  country: Brazil
+  country: Brasil
 google_analytics: UA-135965173-1
 
 # needed for travis-ci build
